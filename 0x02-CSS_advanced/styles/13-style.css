@@ -29,9 +29,6 @@ a:hover {
     text-decoration: underline;
 }
 
-a::after {
-    background-color: var(--color-light-grey);
-}
 
 .visually-hidden {
     display: none;
