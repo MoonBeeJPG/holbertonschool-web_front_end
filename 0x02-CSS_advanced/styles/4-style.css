@@ -2,17 +2,17 @@ html {
     scroll-behavior: smooth;
 }
 
-.body {
-    background-color: var(--text-color);
-    font-family: var(--font-family-base);
+body {
+    color: var(--text-color);
+    font-family: var(--font-family-base); 
 }
 
-.h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
 }
 
-.a {
-    background-color: #161616;
+a {
+    color: var(--text-color);
 }
 
 .visually-hidden {
@@ -20,14 +20,14 @@ html {
 }
 
 .card-category {
-    background-color: var(--color-primary);
+    color: var(--color-primary);
 }
 
 .section-tagline {
-    background-color: var(--color-primary);
+    color: var(--color-primary);
 }
 
-.root {
+:root {
     --color-primary: #d73953;
     --color-black: #090909;
     --color-white: #ffffff;
