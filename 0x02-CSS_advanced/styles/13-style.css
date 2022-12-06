@@ -21,13 +21,6 @@ a:target {
     text-decoration: none;
 }
 
-a:visited {
-    font-style: italic;
-}
-
-a:hover {
-    text-decoration: underline;
-}
 
 a:hover::after {
     background-color: var(--color-light-grey);
