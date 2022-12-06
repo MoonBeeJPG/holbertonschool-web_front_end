@@ -2,12 +2,8 @@ html {
     scroll-behavior: smooth;
 }
 
-.body {
+.body. a {
     background-color: #161616;   
-}
-
-a {
-    background-color: #161616;
 }
 
 .visually-hidden {
