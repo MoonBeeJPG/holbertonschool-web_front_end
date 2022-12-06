@@ -16,11 +16,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
 }
 
-a:target {
-    color: var(--text-color);
-    text-decoration: none;
-}
-
 a:visited {
     font-style: italic;
 }
@@ -29,6 +24,9 @@ a:hover {
     text-decoration: underline;
 }
 
+a::after {
+    background-color: var(--color-light-grey);
+}
 
 .visually-hidden {
     display: none;
