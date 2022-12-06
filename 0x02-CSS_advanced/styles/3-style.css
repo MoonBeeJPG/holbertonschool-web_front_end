@@ -2,12 +2,12 @@ html {
     scroll-behavior: smooth;
 }
 
-.body {
-    background-color: var(--text-color);   
+body {
+    color: var(--text-color);   
 }
 
-.a {
-    background-color: #161616;
+a {
+    color: var(--text-color);
 }
 
 .visually-hidden {
@@ -15,14 +15,14 @@ html {
 }
 
 .card-category {
-    background-color: var(--color-primary);
+    color: var(--color-primary);
 }
 
 .section-tagline {
-    background-color: var(--color-primary);
+    color: var(--color-primary);
 }
 
-.root {
+root {
     --color-primary: #d73953;
     --color-black: #090909;
     --color-white: #ffffff;
