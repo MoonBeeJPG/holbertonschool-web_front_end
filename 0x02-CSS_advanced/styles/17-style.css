@@ -100,6 +100,13 @@ a:active {
     margin-right: auto;
 }
 
+.footer {
+    padding-left: var(--section-padding);
+    padding-right: var(--section-padding);
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+}
+
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
@@ -129,11 +136,4 @@ a:active {
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
     --footer-padding: 5rem 0 1rem;
-}
-
-.footer {
-    padding-left: var(--section-padding);
-    padding-right: var(--section-padding);
-    padding-top: var(--section-padding);
-    padding-bottom: var(--section-padding);
 }
