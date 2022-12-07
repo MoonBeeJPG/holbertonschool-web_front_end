@@ -149,8 +149,8 @@ ul.row {
     text-align: right;
 }
 
-.row:after {
-    content: none;
+.row::after {
+    content: "";
     display: table;
     float: none;
 }
