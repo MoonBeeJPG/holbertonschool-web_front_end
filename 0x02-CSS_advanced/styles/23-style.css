@@ -170,7 +170,7 @@ ul.row {
     display: block;
 }
 
-.social-link:nth-child(svg) {
+.social-link .svg {
     color: var(--text-color);
 }
 
