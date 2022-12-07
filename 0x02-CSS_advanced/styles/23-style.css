@@ -170,10 +170,6 @@ ul.row {
     display: block;
 }
 
-.social-link svg {
-    color: var(--text-color);
-}
-
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
