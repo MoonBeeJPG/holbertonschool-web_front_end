@@ -67,6 +67,10 @@ a:active {
     text-align: var(--section-footer-align);
 }
 
+.footer {
+    padding: var(--section-padding);
+}
+
 .section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
@@ -87,10 +91,6 @@ a:active {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.footer {
-    padding: var(--section-padding);
 }
 
 :root {
