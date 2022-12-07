@@ -151,9 +151,7 @@ ul.row {
 
 .row::after {
     content: "";
-    display: table;
-    float: none;
-}
+    display: table;}
 
 :root {
     --color-primary: #d73953;
