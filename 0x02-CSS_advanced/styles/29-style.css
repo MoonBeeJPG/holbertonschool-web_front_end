@@ -132,13 +132,14 @@ a:active {
     padding: 0.5rem 1rem;
 }
 
-.nav .nav-link::before{ 
+.nav .nav-link::before{
     content: none;
     position: absolute;
     top: 0;
     left: 0;
     background-color: var(--color-white);
     width: 0;
+    height: 0.20rem;
 }
 
 .nav .nav-link:hover {
@@ -147,7 +148,7 @@ a:active {
 
 .nav .nav-link:hover::before{
     background-color: var(--color-primary);
-    width: 100%;
+    width: 100;
 }
 
 ul.row {
