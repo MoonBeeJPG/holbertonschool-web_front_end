@@ -148,6 +148,7 @@ a:active {
 
 .nav .nav-link:hover::before{
     background-color: var(--color-primary);
+    width: 1rem;
 }
 
 ul.row {
