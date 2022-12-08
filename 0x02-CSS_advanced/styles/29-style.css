@@ -135,11 +135,10 @@ a:active {
 .nav .nav-link::before{
     content: none;
     position: absolute;
-    vertical-align: 0;
+    top: 0;
+    left: 0;
     background-color: var(--color-white);
     width: 0;
-    height: 20%;
-}
 
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
