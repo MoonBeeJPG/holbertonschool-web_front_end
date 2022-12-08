@@ -142,7 +142,7 @@ a:active {
     background-color: var(--color-white);
     width: 0;
     height: 0.2rem;
-    transition: var(–transition-duration) var(transition-cubic-bezier);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .nav .nav-link:hover {
@@ -299,7 +299,7 @@ ul.row {
     left: -0.1rem;
     right: -0.1rem;
     z-index: 1;
-    transition: var(transition-duration) var(transition-cubic-bezier);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-inner {
@@ -333,13 +333,13 @@ ul.row {
     opacity: 1;
 }
 
-.card-work:hover .card-image {
+.card-work:hover .card-image{
     transform: scale(1.2);
-    transition: var(–transition-duration) var(transition-cubic-bezier);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
-.card-work:hover .card-outer {
-    transition: scale(0.95);
+.card-work:hover .card-outer{
+    transform: scale(0.95);
 }
 
 :root {
