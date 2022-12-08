@@ -135,8 +135,7 @@ a:active {
 .nav .nav-link::before{
     content: none;
     position: absolute;
-    top: 0;
-    left: 0;
+    vertical-align: 0;
     background-color: var(--color-white);
     width: 0;
     height: 20%;
