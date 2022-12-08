@@ -146,8 +146,8 @@ a:active {
     color: var(--nav-item-link-hover);
 }
 
-.nav .nav-link:hover::before {
-    color: var(--color-primary);
+.nav .nav-item .nav-link:hover::before {
+    background-color: var(--color-primary);
     width: 100%;
 }
 
