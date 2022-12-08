@@ -125,13 +125,14 @@ a:active {
     letter-spacing: var(--nav-item-letter-spacing);
     display: var(--nav-item-display);
     margin: var(--nav-item-margin);
-    background-color: var(--color-primary);
-    width: 100%;
 }
 
 .nav .nav-link {
     display: block;
     padding: 0.5rem 1rem;
+}
+
+.nav .nav-link::before{
     content: none;
     position: absolute;
     top: 0;
@@ -142,7 +143,12 @@ a:active {
 }
 
 .nav .nav-link:hover {
-    color: var(--color-white);
+    color: var(--nav-item-link-hover);
+}
+
+.nav .nav-link:hover::before{
+    background-color: var(--color-primary);
+    width: 100%;
 }
 
 ul.row {
@@ -293,7 +299,7 @@ ul.row {
     --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem 0;
-    --nav-item-link-hover: var(--color-primary);
+    --nav-item-link-hover: var(--color-white);
     --section-tagline-margin: 0;
     --button-display: inline-block;
     --button-padding: 1.5rem 3rem;
