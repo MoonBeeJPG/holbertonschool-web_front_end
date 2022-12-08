@@ -137,7 +137,7 @@ a:active {
     position: absolute;
     top: 0;
     left: 0;
-    color: var(--color-white);
+    background-color: var(--color-white);
     width: 0;
     height: 0.2rem;
 }
@@ -147,7 +147,7 @@ a:active {
 }
 
 .nav .nav-item:hover .nav-link::before {
-    color: var(--color-primary);
+    background-color: var(--color-primary);
     width: 100%;
 }
 
