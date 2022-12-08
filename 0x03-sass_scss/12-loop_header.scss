@@ -1,0 +1,4 @@
+@for $H from 5 through 1 {
+	h#{6 - $H} {
+		font-size: #{(5 - $H + 1)}px; }
+}
