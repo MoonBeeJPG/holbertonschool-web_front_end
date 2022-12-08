@@ -133,12 +133,12 @@ a:active {
 }
 
 .nav .nav-link::before{
-    content: none;
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
-    background-color: var(--color-white);
-    width: 0;
+    color: var(--color-white);
+    width: 0rem;
     height: 0.2rem;
 }
 
@@ -148,7 +148,7 @@ a:active {
 
 .nav .nav-link:hover::before{
     background-color: var(--color-primary);
-    width: auto;
+    width: 100%;
 }
 
 ul.row {
