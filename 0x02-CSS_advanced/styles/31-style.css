@@ -235,6 +235,9 @@ ul.row {
     display: block;
     padding-top: 1rem;
     color: var(--color-primary);
+}
+
+.card-testimonial .card-quote {
     position: relative;
 }
 
